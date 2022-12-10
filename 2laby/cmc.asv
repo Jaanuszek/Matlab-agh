@@ -1,0 +1,11 @@
+close all; clc; clear;
+
+N=5;
+n=10000;
+a=rand(1,N)*2-1;
+dx=0.01; x=0:dx:1; x1=(0-1)*rand(1,n);
+f=polyval(a,x1);
+srednia = sum(f)/n,
+r=s
+
+
